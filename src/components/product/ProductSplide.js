@@ -11,7 +11,7 @@ function ProductSplide() {
       <Splide options={{
          perPage: 4,
         // fixedWidth: 220,
-        fixedHeight: 310,
+        // fixedHeight: 310,
         gap: 25,
         pagination: false,
         drag: 'free',
@@ -20,13 +20,13 @@ function ProductSplide() {
         breakpoints : {
           640 : {
             fixedWidth: 160,
-            fixedHeight:  250,
+            // fixedHeight:  250,
             arrows : false,
             gap : 15
           },
           1024 : {
             fixedWidth: 250,
-            fixedHeight:  310,
+            // fixedHeight:  310,
             arrows : false,
             gap : 15
           }

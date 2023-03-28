@@ -5,7 +5,7 @@ import useNumber from '../../hooks/useNumber';
 const ProductCard = () => {
     const { fCurrency } = useNumber()
     return (
-        <Card sx={{ borderRadius: '10px' }}>
+        <Card sx={{ borderRadius: '10px' ,marginBottom : '10px'}}>
             <CardMedia
                 component="img"
                 image="https://b.zmtcdn.com/data/pictures/chains/0/19229530/8309511541ed930ef6d882c30b5fcdc5.jpg?fit=around|300:273&crop=300:273;*,*"

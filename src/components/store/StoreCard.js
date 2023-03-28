@@ -5,7 +5,7 @@ import LoadButton from '../button/LoadButton';
 const StoreCard = () => {
     const { fCurrency } = useNumber()
     return (
-        <Card sx={{  borderRadius : '10px' }}>
+        <Card sx={{  borderRadius : '10px',marginBottom : '10px' }}>
             <CardMedia
                 component="img"
                 image="https://pnptc-media.s3.amazonaws.com/images/header_photo.2e16d0ba.fill-1200x800.jpg"

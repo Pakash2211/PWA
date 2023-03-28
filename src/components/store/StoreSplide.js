@@ -12,7 +12,7 @@ function StoreSplide() {
       <Splide options={{
          perPage: 4,
         // fixedWidth: 220,
-        fixedHeight: 285,
+        // fixedHeight: 285,
         gap: 25,
         pagination: false,
         drag: 'free',
@@ -21,13 +21,13 @@ function StoreSplide() {
         breakpoints : {
           640 : {
             fixedWidth: 160,
-            fixedHeight: 240,
+            // fixedHeight: 240,
             arrows : false,
             gap : 15
           },
           1024 : {
             fixedWidth: 250,
-            fixedHeight: 310,
+            // fixedHeight: 310,
             arrows : false,
             gap : 15
           }

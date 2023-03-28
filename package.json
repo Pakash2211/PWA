@@ -1,0 +1,36 @@
+{
+  "name": "pwa-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8081",
+    "build": "next build",
+    "start": "next start -p 8081",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.9",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@next/font": "13.1.6",
+    "@splidejs/react-splide": "^0.7.12",
+    "next": "13.1.6",
+    "next-pwa": "^5.6.0",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-horizontal-scrolling": "^0.1.13",
+    "react-query": "^3.39.3",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@iconify/icons-ic": "^1.2.13",
+    "@iconify/react": "^4.1.0"
+  }
+}
